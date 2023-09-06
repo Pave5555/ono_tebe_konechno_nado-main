@@ -103,7 +103,18 @@ header {
 	background-size: cover;
 }
 
-
+/* .cover__title:before {
+    content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, .5);
+} */
 
 
 .cover__title span {
@@ -144,18 +155,16 @@ header {
 
 .cover__description-text {
     padding-top: 147px;
-    margin-left: 422px;
+    margin-left: 222px;
     font-size: 22px;
-    letter-spacing: 10px;
+    letter-spacing: 7px;
 }
 
 .bet-button {
+    margin-right: 78px;
+    margin-top: 80px;
     background: transparent;
     border-radius: 7
   padding: 147px 32px;
-  text-align: center;
-  text-decoration: none;
-
-  font-size: 16px;
- 
+  font-size: 22px;
 }
