@@ -1,0 +1,161 @@
+/* место для вашего кода */
+
+
+*,
+*:after
+*::before {
+    box-sizing: border-box;
+}
+
+
+
+main {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: relaway;
+    color: 000;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul {
+    display: flex;
+}
+
+nav {
+    line-height: 12px;
+    height: 109px;
+    align-items: center;
+    display: flex;
+
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 92px;
+    margin-top: 50px;
+}
+
+header {
+    width: 1440px;
+    margin-top: 92px;
+    font-family: Raleway;
+    font-size: 18px;
+    color: #000000;
+
+}
+
+
+
+.nav__logo {
+    display: block;
+    margin: auto;
+    width: 148px;
+    height: 105px;
+}
+
+.nav__contact {
+    margin-left: auto;
+}
+
+
+
+.nav__list {
+    display: flex;
+    list-style: circle;
+    align-items: center;  
+    gap: 30px;
+
+}
+
+.nav__list li:first-child {
+    list-style: none;
+}
+
+
+.cover {
+    display: flex;
+    width: 1444px;
+    height: auto;
+}
+
+.cover_img {
+    position	: relative;
+}
+
+
+
+.cover__title {
+    background-image: url("../images/cover.jpg");
+    max-width: 1440px;
+    height: 757px; 
+    padding-top: 165px;
+	background-size: cover;
+}
+
+
+
+
+.cover__title span {
+    display: block;
+    font-size: 100px;
+    color: white;
+
+}
+
+.cover__title {
+    color: white;
+}
+
+
+.aligned-text {
+    margin-left: 50px;
+    
+}
+
+.aligned-text_center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.aligned-text_right {
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.cover__description {
+    display: flex;
+    text-transform: uppercase;
+    margin-top: 30px;
+
+}
+
+
+.cover__description-text {
+    padding-top: 147px;
+    margin-left: 422px;
+    font-size: 22px;
+    letter-spacing: 10px;
+}
+
+.bet-button {
+    background: transparent;
+    border-radius: 7
+  padding: 147px 32px;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 16px;
+ 
+}
