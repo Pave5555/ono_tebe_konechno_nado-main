@@ -185,13 +185,16 @@ header {
 }
 
 .lots__card-list {
+
     display: flex;
     gap: 25px;
     margin-left: 50px;
+    position: relative;
 }
 
 .lots__card-list-first {
     background-image: url(../images/card-lot-01.jpg)
+    display: grid;
 
 }
 
@@ -224,6 +227,7 @@ header {
     margin-left: 40px;
     font-size: 22px;
     text-decoration: underline;
+    color:white;
 }
 
 .card-link {
@@ -231,7 +235,20 @@ header {
     height: 450px;
 }
 
-.card_image {
-    background-image
+.card__text {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
 
+.card_image {
+
+}
+
+
+
+
+.about {
+    width: 1340px;
+    height: 487px;
 }
