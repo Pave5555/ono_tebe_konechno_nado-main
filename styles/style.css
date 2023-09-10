@@ -101,9 +101,10 @@ header {
     height: 757px; 
     padding-top: 165px;
 	background-size: cover;
+    position: relative;
 }
 
-/* .cover__title:before {
+.cover__title:before {
     content: '';
 	display: block;
 	width: 100%;
@@ -114,7 +115,7 @@ header {
 	right: 0;
 	bottom: 0;
 	background-color:rgba(0, 0, 0, .5);
-} */
+}
 
 
 .cover__title span {
@@ -161,10 +162,76 @@ header {
 }
 
 .bet-button {
-    margin-right: 78px;
-    margin-top: 80px;
     background: transparent;
-    border-radius: 7
-  padding: 147px 32px;
-  font-size: 22px;
+    border-radius: 14px;
+    padding: 12px 12px;
+    font-size: 22px;
+}
+
+.lots {
+    display: block;
+    width: 1340px;
+    height: 579px;
+}
+
+.lots__heading {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.lots__heading {
+    padding-left: 40px;;
+    margin-left: 50px;
+}
+
+.lots__card-list {
+    display: flex;
+    gap: 25px;
+    margin-left: 50px;
+}
+
+.lots__card-list-first {
+    background-image: url(../images/card-lot-01.jpg)
+
+}
+
+.lots__card-list-first:before {
+    content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, .5);
+}
+
+
+
+
+.lots__card-list-second {
+    background-image: url(../images/card-lot-02.jpg)
+}
+
+.lots__card-list-three {
+    background-image: url(../images/card-lot-03.jpg)
+}
+
+.card__title {
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.card-link {
+    width: 430px;
+    height: 450px;
+}
+
+.card_image {
+    background-image
+
 }
